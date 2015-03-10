@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<expr type="binary">
+     <operator value="Is it in the northern Hemisphere?"/>
+     <expr type="binary">
+     <operator value="Is it in Europe?"/>
+     <expr type = "binary">
+        <operator value="Is it part of the UK?"/>
+        <expr type="atom">
+          <atom value="Scotland"/>
+          </expr>
+
+        <expr type = "binary">  
+          <operator value="Does it use the Euro?"/>
+          <expr type = "binary">  
+            <operator value="Is it shaped like a boot?"/>
+            <expr type="atom">
+              <atom value="Italy"/>
+                </expr>
+            <expr type="atom">
+                <atom value="France"/>
+                </expr>
+            </expr>
+
+            <expr type = "binary">
+            <operator value="Does it have Monarchy"/>
+              <expr type="atom">
+                <atom value="Sweden"/>
+                </expr>
+              <expr type="atom">
+                <atom value="Romania"/>
+                </expr>
+            </expr>
+        </expr>
+       </expr>
+
+     <expr type = "binary">
+        <operator value="Is it in Asia?"/>
+        <expr type = "binary">
+            <operator value="is it an island?"/>
+            <expr type="atom">
+              <atom value="Japan"/>
+                </expr>
+            <expr type="atom">
+                <atom value="China"/>
+                </expr>
+            </expr>
+
+          <expr type = "binary">
+            <operator value="Is French an official language?"/>
+              <expr type="atom">
+                <atom value="Canada"/>
+                </expr>
+              <expr type="atom">
+                <atom value="Mexico"/>
+                </expr>
+          </expr>
+     </expr>
+  </expr>
+
+  <expr type="binary">
+     <operator value="Is Spanish or Portugese the main language there?"/>
+     <expr type = "binary">
+        <operator value="Does it touch the equator?"/>
+        <expr type = "binary">
+            <operator value="Does Machu Picchu lie here?"/>
+            <expr type="atom">
+                <atom value="Peru"/>
+                </expr>
+              <expr type="atom">
+                <atom value="Ecuador"/>
+                </expr>
+          </expr>
+
+          <expr type = "binary">
+            <operator value="Does it have the largest rainforest in the world?"/>
+            <expr type="atom">
+                <atom value="Brazil"/>
+                </expr>
+              <expr type="atom">
+                <atom value="Argentina"/>
+                </expr>
+          </expr>
+     </expr>
+
+     <expr type = "binary">
+        <operator value="Is it an Island?"/>
+        <expr type = "binary">
+            <operator value="Is it also a continent?"/>
+              <expr type="atom">
+                <atom value="Australia"/>
+                </expr>
+              <expr type="atom">
+                <atom value="New Zealand"/>
+                </expr>
+          </expr>
+        
+        <expr type = "binary">
+            <operator value="Does Victoria Falls lie here?"/>
+            <expr type="atom">
+              <atom value="Zimbabwe"/>
+                </expr>
+            <expr type="atom">
+                <atom value="Botswana"/>
+                </expr>
+            </expr>
+
+     </expr>
+  </expr>
+</expr>
